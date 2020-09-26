@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "beniyoo/blueprint-views-addon",
+    "description": "blueprint-views-addon",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "beniyoo",
+        "blueprint-views-addon"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/beniyoo/blueprint-views-addon",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "Beniyoo",
+            "email": "beni.bauer@gmail.com",
             "homepage": "https://spatie.be",
             "role": "Developer"
         }
@@ -27,13 +27,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src",
-            "Spatie\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Beniyoo\\BlueprintViewsAddon\\": "src",
+            "Beniyoo\\BlueprintViewsAddon\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Beniyoo\\BlueprintViewsAddon\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -48,10 +48,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Skeleton\\SkeletonServiceProvider"
+                "Beniyoo\\BlueprintViewsAddon\\BlueprintViewsAddonServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
+                "BlueprintViewsAddon": "Beniyoo\\BlueprintViewsAddon\\BlueprintViewsAddonFacade"
             }
         }
     },
